@@ -1,2 +1,2 @@
 # interview-programs
-A list of most commonly asked interview programs (solved) for QA.
+Collection of sample programs (asked in interviews) developed using Javascript
