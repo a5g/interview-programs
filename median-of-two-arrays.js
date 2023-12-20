@@ -1,7 +1,7 @@
 // https://leetcode.com/problems/median-of-two-sorted-arrays/
 
-const findMedianSortedArrays = function (a, b) {
-  const arr = a.concat(b).sort();
+const findMedianSortedArrays = function (nums1, nums2) {
+  const arr = [...nums1.concat(nums2)].sort((a, b) => a - b);
 
   let mid = parseInt(arr.length / 2, 10);
   let median = arr[mid];

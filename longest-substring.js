@@ -16,13 +16,6 @@ function lengthOfLongestSubstring(s) {
 
     // Update the length of the longest substring
     longestSubstring = Math.max(longestSubstring, j - i + 1);
-
-    let lstr = "";
-    for (let k = i; k <= j; k++) {
-      lstr += s[k];
-    }
-
-    console.log(1);
   }
 
   return longestSubstring;
